@@ -1,0 +1,92 @@
+url: https://ksasaki7.github.io/ISCB2025_example_git/
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left: [intro, reference, articles, tutorials, news, reports]
+    right: [search, github]
+  components:
+    reports:
+      text: Reports
+      menu:
+        - text: Coverage report
+          href: coverage-report/
+        - text: Unit test report
+          href: unit-test-report/
+    github:
+      icon: fa-github
+      href: https://github.com/openpharma/mmrm
+
+articles:
+  - title: Introduction
+    navbar: Introduction
+    contents:
+      - introduction
+      - methodological_introduction
+      - mmrm_review_methods
+  - title: Covariance Structures
+    navbar: Covariance Structures
+    contents:
+      - covariance
+  - title: Degrees of Freedom and Testing
+    navbar: Degrees of Freedom and Testing
+    contents:
+      - hypothesis_testing
+      - between_within
+      - kenward
+      - satterthwaite
+  - title: Coefficient Covariance
+    navbar: Coefficient Covariance
+    contents:
+      - coef_vcov
+      - empirical_wls
+  - title: Algorithm Details
+    navbar: Algorithm Details
+    contents:
+      - algorithm
+      - predict
+  - title: Developers
+    navbar: Developers
+    contents:
+      - package_structure
+reference:
+  - title: Package
+    contents:
+      - mmrm-package
+  - title: Functions
+    contents:
+      - mmrm
+      - fit_mmrm
+      - mmrm_control
+      - fit_single_optimizer
+      - refit_multiple_optimizers
+      - df_1d
+      - df_md
+      - component
+  - title: Start Values
+    contents:
+      - std_start
+      - emp_start
+  - title: Methods
+    contents:
+      - mmrm_methods
+      - mmrm_tidiers
+      - mmrm_tmb_methods
+      - stats_anova
+  - title: Covariance Structures
+    contents:
+      - cov_struct
+      - as.cov_struct
+      - format.cov_struct
+      - print.cov_struct
+      - covariance_types
+  - title: Estimate Marginal Means
+    contents:
+      - emmeans_support
+  - title: Datasets
+    contents:
+      - fev_data
+      - bcva_data
+
+---
