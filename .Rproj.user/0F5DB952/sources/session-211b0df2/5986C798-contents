@@ -1,0 +1,17 @@
+Package: Package1
+Type: Package
+Title: say Hello and glue text
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Kotaro", "Sasaki",
+      email = "sasaki.kotaro@ism.ac.jp",
+      role = c("aut", "cre")
+    )
+  )
+Description: ISCB46 SWE course test. This package enables to say Hello and glue text 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

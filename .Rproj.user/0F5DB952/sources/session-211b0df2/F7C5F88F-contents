@@ -1,0 +1,22 @@
+#' My Summation Function
+#'
+#' This is my first function and it sums two numbers.
+#'
+#' @param person_name person_name.
+#'
+#' @return The text "Hello, world, {person_name}"
+#' @export
+#'
+#' @note This function is a bit boring but that is ok.
+#' @seealso [Arithmetic] for an easier way.
+#'
+#' @examples
+#' hello('Kotaro')
+
+hello <- function(person_name) {
+  print(paste("Hello, world, ", person_name, sep=""))
+}
+
+"%+%" <- function(e1, e2) {
+    paste(e1, e2, sep = "")
+}

@@ -1,0 +1,8 @@
+pandoc: '3.4'
+pkgdown: 2.1.3
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-08-24T14:46Z
+urls:
+  reference: https://ksasaki7.github.io/ISCB2025_example_git/reference
+  article: https://ksasaki7.github.io/ISCB2025_example_git/articles
