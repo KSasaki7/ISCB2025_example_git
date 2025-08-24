@@ -1,0 +1,7 @@
+test_that("test for hello", {
+  expect_equal(hello("Kotaro"), "Hello, Kotaro")
+})
+
+test_that("test for %+%", {
+  expect_equal("My name is " %+% "Kotaro", "My name is Kotaro")
+})
